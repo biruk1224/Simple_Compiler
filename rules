@@ -1,0 +1,56 @@
+﻿[Project for Compiler Design]
+
+
+Name given for our hypothetical language is PA++ (ፖ++).
+
+We try to design a simple parser which is based on our native language,so the token that we have used is d/nt from other programming languages.
+
+The tokens that we have used for this language:-
+
+Keyword:  "ለ"|"ከ"|"ቀጥል"|"ክፍል"|"ከሆነ"|"አለበለዚያ"|"ሞክር"|"ያዝ"|"ወፍ"|"አሰራ"|"አውጣ"
+
+Letter:ሀሁሂሃሄህሆለሉሊላሌልሎሐሑሒሓሔሕሖመሙሚማሜምሞሠሡሢሣሤሥሦረሩሪራሬርሮሰሱሲሳሴስሶሸሹሺሻሼሽሾቀቁቂቃቄቅቆበቡቢባቤብቦተቱቲታቴትቶቸቹቺቻቼችቾኀኁኂኃኄኅኆነኑኒናኔንኖኘኙኚኛኜኝኞአኡኢኣኤእኦከኩኪካኬክኮኸኹኺኻኼኽኾወዉዊዋዌውዎዐዑዒዓዔዕዖዘዙዚዛዜዝዞዠዡዢዣዤዥዦየዩዪያዬይዮደዱዲዳዴድዶጀጁጂጃጄጅጆገጉጊጋጌግጎጠጡጢጣጤጥጦጨጩጪጫጬጭጮጰጱጲጳጴጵጶጸጹጺጻጼጽጾፀፁፂፂፃፄፅፆፈፉፊፋፌፍፎፐፑፒፓፔፕፕፖ
+
+
+Number:  ፩፪፫፬፭፮፯፰፱፲፳፴፵፶፷፸፹፺፻፼
+
+Some other characters for symbols ":","::","(",")" ....
+
+
+Rule stated for our language is down here:-
+
+1,Identifiers must start with amaharic letter then followed by amaharic letters or numbers .
+	ex  ሀሁ,ሀሁ፩,
+
+2,All statements  must end with "::" in amaharic ARAT_NETIB.
+	ex ሀሁ="ምሳሌ":: ,ዓነገር="አበበ በሶ በላ"::, ቀ=፬+፭::
+	
+3,Keywords can't be Identifiers
+	
+
+
+4,Print statement or in amaharic አውጣ for ፖ++ PL language
+	ex አውጣ "ሰላም ሰላም"::
+	
+5,The operators used like +,-,*,/ precedenced as other languages.
+       *,/ are in the same level and *,/ also in the level  if one of  them come together it set higher precedence to the left
+
+6
+,Functions must have identifiers followed by Left and Right bracket with colon at the end 
+  and it must be closed by ::(ARAT_NETIB)
+  	ex አሳይ():
+  	  አውጣ "ሰላም ሰላም"::
+  	 ::
+7,Comments here is start with  ¡ or inverted exclamation(Timhite silak) and end with exclamation !.
+
+       ¡   አስተያየት !
+
+8,Other languages are ignored here meaning english or any other languages aren't considered at all.
+
+
+
+
+
+
+			
+			
